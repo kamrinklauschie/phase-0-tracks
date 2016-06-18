@@ -1,0 +1,20 @@
+Briefly describe your understanding of what the browser does, including definitions of the following:
+There are 2 types of rendering, client side and server side. Client side means on your local machine, server side means remotely.
+
+What is HTML? In your answer, include definitions of the following:
+HTML is Hypertext Markup Language, a standardized system for tagging text files with font, color, graphic, and hyperlink effects on web pages. Elements are used to separate different types of objects on the web. There are 2 types of elements, block and inline. Block can be thought of as "bigger" - meaning that block elements hold down the page and inline elements support. Inline elements can live inside block elements. Elements have attributes which tell you more about the specifics of the element. I think of attributes as the rules for elements. To start an HTML file, you use an HTML tag, which is <!DOCTYPE HTML>. A node is any of the elements that connect with other elements. They are the glue in between each element.
+
+Very briefly, explain the purpose of the following elements:
+head - a container for metadata
+body - major part of
+p - paragraph
+form - create an interface where the user can provide information to the server
+div - division or section
+span - group inline elements
+select - a form option that allows the user to pick one option from many
+h2 - the 2nd most important header
+ol - ordered list, think 1, 2, 3
+ul - unordered list, think bullet points
+table - making an Excel spreadsheet type thing
+tr - defines a table row
+td - defines a table cell, closes it
