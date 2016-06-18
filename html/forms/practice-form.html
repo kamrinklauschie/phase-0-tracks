@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title>Practice Form!</title>
+</head>
+<body>
+<form action="success.html" method="post">
+  <div>
+    <label>Email:</label>
+    <input type="email" name="email">
+  </div>
+  <div>
+    <label>Password:</label>
+    <input type="password" name="password">
+  </div>
+  <p>
+    <label for="birth">
+      <span>Date of birth: </span>
+      <input type="text" id="birth" name="userbirth" maxlength="10" /> <em> <br> mm/dd/yyyy</em>
+    </label>
+  </p>
+  <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+  <fieldset>
+    <legend>T-Shirt Size</legend>
+    <p>
+      <input type="radio" name="size" id="size_1" value="small" />
+      <label for="size_1">Small</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium" />
+      <label for="size_2">Medium</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_3" value="large" />
+      <label for="size_3">Large</label>
+    </p>
+  </fieldset>
+    <p>
+    <input type="checkbox" id="taste_1" name="taste_cherry" value="1">
+    <label for="taste_1">I love tomatoes!</label>
+    </p>
+    <p>
+    <label for="taste_2">
+      <input type="checkbox" id="taste_2" name="taste_banana" value="1">
+      I love satan!
+    </label>
+  </p>
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
