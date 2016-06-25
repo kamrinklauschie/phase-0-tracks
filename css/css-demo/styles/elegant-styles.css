@@ -14,7 +14,7 @@ body {
   font-size: 1.2em;
 }
 
-ul {
+ul ~ ul {
   list-style-type: square;
 }
 
@@ -24,9 +24,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Helvetica", sans-serif;
 }
 
-/* 
+/*
 
-You can select a class (preceded by a period) 
+You can select a class (preceded by a period)
 or ID (preceded by a hash).
 
 In HTML, a class is assigned like this:
@@ -62,5 +62,5 @@ an element of a certain class (the p
 is nested inside the contact-info section) */
 
 #contact-info p {
-  line-height: .8;
+  line-height: .8em;
 }
