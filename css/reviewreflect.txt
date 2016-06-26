@@ -1,0 +1,25 @@
+Name at least three categories of CSS adjustments (example: colors)?
+1. Margins
+2. Fonts
+3. Positioning
+
+What are the three ways to link a CSS rule to an HTML document? Which one is the best and why?
+1. External style sheet
+2. Internal style sheet
+3. Inline style sheet
+None of them is necessarily the best, each has a specific use case. Inline overrides CSS specificity the most and is used for a single element. Internal is used for a specific page. External is use for a whole site.
+
+What is a selector? Give examples of at least three types of selectors.
+1. ID
+2. Class
+3. Pseudo-class
+
+What is the box model?
+The box model is a series of layers that wrap around every HTML element. It consists of content, padding, border, and margin.
+
+Explain and give an example of the cascading effect of CSS.
+The cascading effect allows you to link multiple style sheets to one web page, and CSS specificity will determine what is highest priority and thus what actually renders on the web page. An example is the fact that we used 3 CSS files in the CSS demo challenge.
+
+Name two CSS techniques that assist in responsive design.
+1. Viewport
+2. Dev Tools previews
