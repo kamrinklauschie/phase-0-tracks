@@ -1,0 +1,10 @@
+- For each key on a keychain:
+  - Until you can turn the doorknob, or until you have checked all the keys
+      - Insert the key in the doorknob
+      - Turn the key in the doorknob
+      - Turn the doorknob
+  - If the doorknob doesn't turn
+      - Proceed to the next key
+  - If you have checked  all the keys
+      - Cease the operation
+      - Display 'error'
