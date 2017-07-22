@@ -1,10 +1,42 @@
-- For each key on a keychain:
-  - Until you can turn the doorknob, or until you have checked all the keys
-      - Insert the key in the doorknob
-      - Turn the key in the doorknob
-      - Turn the doorknob
-  - If the doorknob doesn't turn
-      - Proceed to the next key
-  - If you have checked  all the keys
-      - Cease the operation
-      - Display 'error'
+Elevator & Stairs 
+
+Elevator 
+
+Commands
+"open elevator door"
+"close elevator door"
+"go up full speed"
+"go down full speed"
+"slow down"
+"stop"
+"each floor of the building"
+
+Sensors 
+"door closing" - person inside 
+"door opening" - at the right place 
+
+This is complicated and makes my brain want to explode. 
+
+
+Stairs 
+
+For each step in a case of stairs: 
+
+Left foot -
+	- Raise left foot above height of step
+	- Raise left foot over the step
+	- Step down
+	- Shift weight down 
+
+Right foot - 
+	- Raise right foot above height of the step 
+	- Raise right foot over the step
+	- Step down 
+	- Shift weight down 
+
+Repeat left foot
+
+Repeat right foot 
+
+If no more steps are present, stop. 
+
