@@ -1,0 +1,42 @@
+* { 
+  font-family:helvetica;
+}
+
+img {
+  height: 225px;
+  width: 250px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: green; 
+  height: 375px; 
+  padding: 25px 0px 0px 0px; 
+}
+
+.column-1 {
+  background-color: blue; 
+  width: 45%; 
+  height: 1150px;
+  float: left; 
+}
+
+.column-2 { 
+  background-color: red;
+  width: 45%; 
+  height: 1150px; 
+  float: right;
+}
+
+footer {
+  background-color: yellow;
+  clear: both; 
+  text-align: center;
+  padding: 45px 0px 0px 0px;
+  height: 70px; 
+}
