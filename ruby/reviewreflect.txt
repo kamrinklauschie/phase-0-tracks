@@ -1,0 +1,61 @@
+Variables
+1. What is a variable? Why might a programmer use a variable?
+
+From Wikipedia: "In computer programming, a variable or scalar is a storage location paired with an associated symbolic name (an identifier), which contains some known or unknown quantity of information referred to as a value."
+
+A programmer uses variables in order to define arguments, in other words, to store and retrieve data efficiently, or to evaluate/run programs. 
+
+2. If the value of first_name is "Abraham" and last_name is "Lincoln", explain the order in which Ruby will run the line full_name = first_name + last_name, and what the final result will be.
+
+Ruby will run first_name + last_name first by pulling back to figuring out what those two variables are, and then add them together and figure out if it has the answer to the variable full_name, and return that. 
+
+Data Types
+3. For each of the following data types, write a short definition and give at least one example of when you might use the data type in a program. (Don't use an example we've already provided.)
+
+string - a series of letters or numbers - to represent words 
+integer - whole numbers - to represent money or time 
+float - numbers with decimal points - when numbers don't divide evenly 
+nil - empty space - when a user inputs nothing 
+boolean - true or false - did something happen or not? 
+
+Algorithms
+4. What is an algorithm?
+
+From Wikipedia: "An algorithm is a self-contained sequence of actions to be performed. Algorithms can perform calculation, data processing and automated reasoning tasks."
+
+5. What are two common categories of algorithm in computer science? 
+
+Recursive & Iterative 
+An iterative algorithm will use looping statements such as for loop to repeat the same steps. 
+Recursive algorithm - a function calls itself again and again till the base condition (stopping condition) is satisfied.
+
+
+Methods
+6. What is a method? Why might a programmer choose to use a method?
+
+From Wikipedia: "A method in object-oriented programming (OOP) is a procedure associated with a message and an object. An object is made up of behavior and data. Data is represented as properties of the object and behavior as methods. Methods are also the interface an object presents to the outside world."
+
+7. Define the following terms as they relate to a method. 
+
+return value - the final result of the method after it's called 
+side effect - anything that happens to data when passed through a method, intended or otherwise 
+parameter & argument - A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters. Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
+implicit return - when Ruby assumes you want to return a value in a method 
+
+8. What are global scope and method scope? How do those scopes impact the availability of data at different points in a program?
+
+Control Flow
+9. What is control flow? Why might a programmer choose to use flow control?
+
+From Wikipedia: "In computer science, control flow (or flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated."
+
+A programmer would choose to use control flow to write clean, readable, maintainable code for a team. 
+
+10. Define the following terms as they relate to flow control.
+
+loop - 
+if - if this is true, do one thing; if it’s not, do something else.
+else - execute if the condition is false 
+elsif - check for multiple conditions in the same method 
+while - continue to execute until the condition stated is false
+until - continue to loop until the condition is true
