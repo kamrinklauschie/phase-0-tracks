@@ -1,39 +1,33 @@
-# Replace in the "<???>" with the appropriate method (and arguments, if any).
-# Uncomment the calls to catch these methods red-handed.
+"iNvEsTiGaTiOn".swapcase
+=> “InVeStIgAtIoN”
 
-# When there's more than one suspect who could have
-# committed the crime, add additional calls to prove it.
+"zom".insert(2, 'o')
+"zom".insert(1, 'o')
+=> “zoom”
 
-# "iNvEsTiGaTiOn".<???>
-# => “InVeStIgAtIoN”
+"enhance".center(20)
+=> "    enhance    "
 
-# "zom".<???>
-# => “zoom”
+"Stop! You’re under arrest!".upcase
+=> "STOP! YOU’RE UNDER ARREST!"
 
-# "enhance".<???>
-# => "    enhance    "
+"the usual".replace "the usual suspects"
+=> "the usual suspects"
 
-# "Stop! You’re under arrest!".<???>
-# => "STOP! YOU’RE UNDER ARREST!"
+" suspects".replace "the usual suspects"
+=> "the usual suspects"
 
-# "the usual".<???>
-#=> "the usual suspects"
+"The case of the disappearing last letter".chop
+=> "The case of the disappearing last lette"
 
-# " suspects".<???>
-# => "the usual suspects"
+"The mystery of the missing first letter".slice(1,100000)
+=> "he mystery of the missing first letter"
 
-# "The case of the disappearing last letter".<???>
-# => "The case of the disappearing last lette"
+"Elementary,    my   dear        Watson!" .squeeze
+"Elementary, my dear Watson!"
 
-# "The mystery of the missing first letter".<???>
-# => "he mystery of the missing first letter"
+"z".getbyte(0)
+=> 122 
 
-# "Elementary,    my   dear        Watson!".<???>
-# => "Elementary, my dear Watson!"
-
-# "z".<???>
-# => 122 
-# (What is the significance of the number 122 in relation to the character z?)
-
-# "How many times does the letter 'a' appear in this string?".<???>
-# => 4
+"How many times does the letter 'a' appear in this string?".count('a')
+=> 4
