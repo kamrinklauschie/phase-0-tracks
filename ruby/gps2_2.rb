@@ -98,5 +98,4 @@ print_list(my_grocery_list)
 # The differences between hashes and arrays. 
 # How to pass information between methods. 
 # Correct syntax for hashes and arrays. 
-# Built in methods. 
 
